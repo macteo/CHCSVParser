@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "95B7CAC41DD1BFA200001BDA"
+               BlueprintIdentifier = "95B7CAD31DD1C02F00001BDA"
                BuildableName = "CHCSVParser.framework"
                BlueprintName = "CHCSVParser"
                ReferencedContainer = "container:CHCSVParser.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "95B7CAC41DD1BFA200001BDA"
+            BlueprintIdentifier = "95B7CAD31DD1C02F00001BDA"
             BuildableName = "CHCSVParser.framework"
             BlueprintName = "CHCSVParser"
             ReferencedContainer = "container:CHCSVParser.xcodeproj">
@@ -63,7 +63,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "95B7CAC41DD1BFA200001BDA"
+            BlueprintIdentifier = "95B7CAD31DD1C02F00001BDA"
             BuildableName = "CHCSVParser.framework"
             BlueprintName = "CHCSVParser"
             ReferencedContainer = "container:CHCSVParser.xcodeproj">

@@ -6,7 +6,7 @@
 //
 //
 
-#import <Cocoa/Cocoa.h>
+#import <UIKit/UIKit.h>
 
 //! Project version number for CHCSVParser.
 FOUNDATION_EXPORT double CHCSVParserVersionNumber;
