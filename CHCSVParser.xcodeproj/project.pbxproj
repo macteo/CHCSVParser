@@ -10,8 +10,8 @@
 		557FD05D1204A731009FCDBA /* UnitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 557FD05B1204A72B009FCDBA /* UnitTests.m */; };
 		55B60C47180DB1F900B18D7C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55B60C46180DB1F900B18D7C /* XCTest.framework */; };
 		55F79EE01682D6B60095E9D5 /* CHCSVParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 55B99320160E376100D6548A /* CHCSVParser.m */; };
-		95B7CAD81DD1C02F00001BDA /* CHCSVParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 95B7CAD61DD1C02F00001BDA /* CHCSVParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		95B7CADC1DD1C03300001BDA /* CHCSVParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 55B99320160E376100D6548A /* CHCSVParser.m */; };
+		95B7CADD1DD1C44700001BDA /* CHCSVParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 55B9931F160E376100D6548A /* CHCSVParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,11 +26,8 @@
 		55B60C46180DB1F900B18D7C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		55B9931F160E376100D6548A /* CHCSVParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHCSVParser.h; sourceTree = "<group>"; };
 		55B99320160E376100D6548A /* CHCSVParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHCSVParser.m; sourceTree = "<group>"; };
-		95B7CAC71DD1BFA200001BDA /* CHCSVParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CHCSVParser.h; sourceTree = "<group>"; };
-		95B7CAC81DD1BFA200001BDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		95B7CAD41DD1C02F00001BDA /* CHCSVParser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CHCSVParser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		95B7CAD61DD1C02F00001BDA /* CHCSVParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CHCSVParser.h; sourceTree = "<group>"; };
-		95B7CAD71DD1C02F00001BDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95B7CAE01DD1C48500001BDA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +55,6 @@
 				08FB7795FE84155DC02AAC07 /* Source */,
 				5560A19D1737433900DDD1D3 /* Unit Tests */,
 				08FB779DFE84155DC02AAC07 /* External Frameworks and Libraries */,
-				95B7CAC61DD1BFA200001BDA /* CHCSVParser */,
-				95B7CAD51DD1C02F00001BDA /* CHCSVParser */,
 				1AB674ADFE9D54B511CA2CBB /* Products */,
 			);
 			name = CHCSVParser;
@@ -69,6 +64,7 @@
 			isa = PBXGroup;
 			children = (
 				08FB7796FE84155DC02AAC07 /* main.m */,
+				95B7CAE01DD1C48500001BDA /* Info.plist */,
 				5516BCBA12578DA90025F235 /* CHCSVParser */,
 			);
 			name = Source;
@@ -114,24 +110,6 @@
 			path = "Unit Tests";
 			sourceTree = "<group>";
 		};
-		95B7CAC61DD1BFA200001BDA /* CHCSVParser */ = {
-			isa = PBXGroup;
-			children = (
-				95B7CAC71DD1BFA200001BDA /* CHCSVParser.h */,
-				95B7CAC81DD1BFA200001BDA /* Info.plist */,
-			);
-			path = CHCSVParser;
-			sourceTree = "<group>";
-		};
-		95B7CAD51DD1C02F00001BDA /* CHCSVParser */ = {
-			isa = PBXGroup;
-			children = (
-				95B7CAD61DD1C02F00001BDA /* CHCSVParser.h */,
-				95B7CAD71DD1C02F00001BDA /* Info.plist */,
-			);
-			path = CHCSVParser;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -139,7 +117,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				95B7CAD81DD1C02F00001BDA /* CHCSVParser.h in Headers */,
+				95B7CADD1DD1C44700001BDA /* CHCSVParser.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
