@@ -14,8 +14,8 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "8DD76F960486AA7600D96B5E"
-               BuildableName = "CHCSVParser"
+               BlueprintIdentifier = "95B7CAC41DD1BFA200001BDA"
+               BuildableName = "CHCSVParser.framework"
                BlueprintName = "CHCSVParser"
                ReferencedContainer = "container:CHCSVParser.xcodeproj">
             </BuildableReference>
@@ -29,15 +29,6 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "8DD76F960486AA7600D96B5E"
-            BuildableName = "CHCSVParser"
-            BlueprintName = "CHCSVParser"
-            ReferencedContainer = "container:CHCSVParser.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -51,16 +42,15 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "8DD76F960486AA7600D96B5E"
-            BuildableName = "CHCSVParser"
+            BlueprintIdentifier = "95B7CAC41DD1BFA200001BDA"
+            BuildableName = "CHCSVParser.framework"
             BlueprintName = "CHCSVParser"
             ReferencedContainer = "container:CHCSVParser.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -70,16 +60,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "8DD76F960486AA7600D96B5E"
-            BuildableName = "CHCSVParser"
+            BlueprintIdentifier = "95B7CAC41DD1BFA200001BDA"
+            BuildableName = "CHCSVParser.framework"
             BlueprintName = "CHCSVParser"
             ReferencedContainer = "container:CHCSVParser.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
